@@ -51,10 +51,10 @@ app.post("/send-email", upload.single("resume"), async (req, res) => {
 
     try {
         await transporter.sendMail(mailOptions);
-        res.status(200).json({ message: "Application submitted successfully!" });
+        res.status(200).json({ success: true, redirectUrl: "/thank-you.html" });
     } catch (error) {
         console.error(error);
-        res.status(500).json({ message: "Failed to send application." });
+        res.status(500).json({ success: false, message: "Failed to send application." });
     }
 });
 
