@@ -1,0 +1,385 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5;">
+
+    <header style="background: lightsalmon; padding: 20px; text-align: center;">
+        <h1>Job Application</h1>
+    </header>
+
+    <section style="max-width: 600px; margin: auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <h2>Apply Now</h2>
+        <form id="jobApplicationForm">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required style="width: 100%; padding: 10px; margin-top: 5px;">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required style="width: 100%; padding: 10px; margin-top: 5px;">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" required style="width: 100%; padding: 10px; margin-top: 5px;">
+
+            <label for="project">Previous Project (if any):</label>
+            <input type="text" id="project" style="width: 100%; padding: 10px; margin-top: 5px;">
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" required style="width: 100%; padding: 10px; margin-top: 5px;">
+
+            <button type="submit" style="display: block; background: blue; color: white; padding: 10px; margin-top: 20px; width: 100%; border-radius: 5px;">Submit Application</button>
+        </form>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const form = document.getElementById("jobApplicationForm");
+
+            form.addEventListener("submit", (event) => {
+                event.preventDefault();
+
+                const name = document.getElementById("name").value;
+                const email = document.getElementById("email").value;
+                const phone = document.getElementById("phone").value;
+                const resume = document.getElementById("resume").files[0];
+
+                if (name && email && phone && resume) {
+                    alert("Application submitted successfully!");
+                    form.reset();
+                } else {
+                    alert("Please fill all required fields.");
+                }
+            });
+        });
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; text-align: center;">
+
+    <header style="background: lightsalmon; padding: 20px;">
+        <h1>Apply Now</h1>
+    </header>
+
+    <section style="max-width: 900px; margin: 40px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex;">
+       
+        <div style="width: 30%; background: #f0f0f0; display: flex; justify-content: center; align-items: center; padding: 20px;">
+            <img src="C:\Users\VIVEK\Downloads\WhatsApp Image 2025-03-08 at 10.42.09 AM.jpeg" alt="Company Logo" style="max-width: 100%; height: auto; border-radius: 10px;">
+        </div>
+
+        
+        <div style="width: 70%; padding: 20px; text-align: left;">
+            <h2>Job Application Form</h2>
+            <form id="jobApplicationForm">
+                <label for="name" style="font-weight: bold;">Full Name:</label>
+                <input type="text" id="name" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="email" style="font-weight: bold;">Email:</label>
+                <input type="email" id="email" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="linkedin" style="font-weight: bold;">LinkedIn Profile:</label>
+                <input type="url" id="linkedin" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="resume" style="font-weight: bold;">Upload Resume:</label>
+                <input type="file" id="resume" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <button type="submit" style="display: block; background: blue; color: white; padding: 10px; margin-top: 20px; width: 100%; border-radius: 5px; font-weight: bold;">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("jobApplicationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            window.location.href = "thank-you.html";
+        });
+    </script>
+
+</body>
+</html> -->
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f5f5; text-align: center;">
+
+    <header style="background: lightsalmon; padding: 20px;">
+        <h1>Apply Now</h1>
+    </header>
+
+    <section style="max-width: 900px; margin: 40px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); display: flex;">
+        
+        <div style="width: 30%; background: #f0f0f0; display: flex; justify-content: center; align-items: center; padding: 20px;">
+            <img src="C:\Users\VIVEK\Downloads\WhatsApp Image 2025-03-08 at 10.42.09 AM.jpeg" alt="Company Logo" style="max-width: 100%; height: auto; border-radius: 10px;">
+        </div>
+
+        
+        <div style="width: 70%; padding: 20px; text-align: left;">
+            <h2>Job Application Form</h2>
+            <form id="jobApplicationForm">
+                <label for="name" style="font-weight: bold;">Full Name:</label>
+                <input type="text" id="name" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="email" style="font-weight: bold;">Email:</label>
+                <input type="email" id="email" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="linkedin" style="font-weight: bold;">LinkedIn Profile:</label>
+                <input type="url" id="linkedin" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="resume" style="font-weight: bold;">Upload Resume:</label>
+                <input type="file" id="resume" required style="width: 100%; padding: 10px; margin: 5px 0 15px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <button type="submit" style="display: block; background: blue; color: white; padding: 10px; margin-top: 20px; width: 100%; border-radius: 5px; font-weight: bold;">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <script>
+        document.getElementById("jobApplicationForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            window.location.href = "thank-you.html";  
+        });
+    </script>
+
+</body>
+</html> -->
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+        /* Full-page layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Header */
+        header {
+            background: lightsalmon;
+            padding: 15px;
+        }
+
+        /* Main Section */
+        .container {
+            display: flex;
+            width: 80%;
+            max-width: 900px;
+            background: white;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-grow: 1;
+        }
+
+        /* Left Side (Logo) */
+        .left {
+            width: 40%;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .left img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Right Side (Form) */
+        .right {
+            width: 60%;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Form Input Fields */
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Submit Button (Smaller & Bottom Aligned) */
+        .submit-btn {
+            display: block;
+            background: blue;
+            color: white;
+            padding: 8px;
+            width: 100%;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        /* Footer */
+        footer {
+            background: #282c3f;
+            color: white;
+            padding: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Apply Now</h1>
+    </header>
+
+    <section class="container">
+
+        <div class="left">
+            <img src="C:\Users\VIVEK\Downloads\WhatsApp Image 2025-03-08 at 10.42.09 AM.jpeg" alt="Company Logo">
+        </div>
+
+
+        <div class="right">
+            <h2>Job Application Form</h2>
+            <form id="jobApplicationForm" enctype="multipart/form-data">
+                <label for="name"><b>Full Name:</b></label>
+                <input type="text" id="name" required>
+
+                <label for="email"><b>Email:</b></label>
+                <input type="email" id="email" required>
+
+                <label for="linkedin"><b>Major Project:</b></label>
+                <input type="url" id="linkedin" required>
+
+                <label for="resume"><b>Upload Resume:</b></label>
+                <input type="file" id="resume" required>
+
+                <button type="submit" class="submit-btn">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Startup Name. All rights reserved.
+    </footer>
+
+    <script>
+        document.getElementById("jobApplicationForm").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const formData = new FormData();
+            formData.append("name", document.getElementById("name").value);
+            formData.append("email", document.getElementById("email").value);
+            formData.append("linkedin", document.getElementById("linkedin").value);
+            formData.append("resume", document.getElementById("resume").files[0]);
+
+            const response = await fetch("/send-email", {
+                method: "POST",
+                body: formData, // Don't set Content-Type manually, the browser sets it with boundary
+            });
+
+            const result = await response.json();
+            alert(result.message);
+        });
+    </script>
+
+</body>
+
+</html>
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; text-align: center; height: 100vh; display: flex; flex-direction: column; justify-content: space-between;">
+
+    <header style="background: lightsalmon; padding: 15px;">
+        <h1>Apply Now</h1>
+    </header>
+
+    <section style="display: flex; width: 80%; max-width: 900px; background: white; margin: auto; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); flex-grow: 1;">
+        
+       
+        <div style="width: 30%; background: #f0f0f0; display: flex; justify-content: center; align-items: center; padding: 20px;">
+            <img src="C:\Users\VIVEK\Downloads\WhatsApp Image 2025-03-08 at 10.42.09 AM.jpeg" alt="Company Logo" style="max-width: 100%; height: auto; border-radius: 10px;">
+        </div>
+
+     
+        <div style="width: 70%; padding: 20px; text-align: left; display: flex; flex-direction: column; justify-content: center;">
+            <h2>Job Application Form</h2>
+
+            <form action="https://formsubmit.co/aasriths91@gmail.com" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column;">
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New Job Application">
+                <input type="hidden" name="_next" value="thank-you.html"> 
+
+                <label for="name" style="font-weight: bold; margin-top: 10px;">Full Name:</label>
+                <input type="text" name="name" required style="width: 100%; padding: 8px; margin: 5px 0 10px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="email" style="font-weight: bold; margin-top: 10px;">Email:</label>
+                <input type="email" name="email" required style="width: 100%; padding: 8px; margin: 5px 0 10px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="linkedin" style="font-weight: bold; margin-top: 10px;">LinkedIn Profile:</label>
+                <input type="url" name="linkedin" required style="width: 100%; padding: 8px; margin: 5px 0 10px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <label for="resume" style="font-weight: bold; margin-top: 10px;">Upload Resume:</label>
+                <input type="file" name="resume" required style="width: 100%; padding: 8px; margin: 5px 0 10px; border: 1px solid #ccc; border-radius: 5px;">
+
+                <button type="submit" style="display: block; background: blue; color: white; padding: 8px; width: 100%; border-radius: 5px; font-weight: bold; margin-top: 10px;">Submit Application</button>
+            </form>
+        </div>
+    </section>
+
+    <footer style="background: #282c3f; color: white; padding: 10px; font-size: 14px;">
+        &copy; 2025 Startup Name. All rights reserved.
+    </footer>
+
+</body>
+</html> -->
